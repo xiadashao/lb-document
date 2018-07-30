@@ -4,7 +4,7 @@
 
 #### 2、从版本资源库下载最新代码
 
-**资源库地址：git clone **[**/git@code.aliyun.com:erp-server/lb-document.git**](/git@code.aliyun.com:erp-server/lb-document.git)
+**资源库地址：git clone **[**https://github.com/xiadashao/lb-document.git**](https://github.com/xiadashao/lb-document.git)
 
 #### 3、打开GitBook Editor工具，点击Do that later
 
