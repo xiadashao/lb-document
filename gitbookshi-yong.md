@@ -2,25 +2,17 @@
 
 **下载地址：**[**https://legacy.gitbook.com/editor**](https://legacy.gitbook.com/editor)
 
-
-
 #### 2、从版本资源库下载最新代码
 
 **资源库地址：git clone **[**/git@code.aliyun.com:erp-server/lb-document.git**](/git@code.aliyun.com:erp-server/lb-document.git)
-
-
 
 #### 3、打开GitBook Editor工具，点击Do that later
 
 ###### ![](/assets/WechatIMG121.png)
 
-
-
 #### 5、选择Import导入刚才下载的项目
 
 ![](/assets/1532956392532.jpg)
-
-
 
 #### 6、导入进来之后点击这里进入到项目，开始对文档进行编辑更新等操作。
 
