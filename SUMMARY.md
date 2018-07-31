@@ -5,4 +5,5 @@
   * [GitBook使用](gitbookshi-yong.md)
 * [技术新人入职的标准流程](chapter1.md)
   * [源码获取方式](chapter1/qian-duan-ji-zhu-ren-yuan.md)
+  * [maven私服setting.xml](chapter1/mavensi-fu-setting-xml.md)
 
