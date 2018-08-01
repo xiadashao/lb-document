@@ -10,3 +10,5 @@ GitHub: [https://code.aliyun.com](https://code.aliyun.com)
 
 Jenkins: [http://jenkins.dev.lbonline.cn](http://jenkins.dev.lbonline.cn)
 
+xxl-job: [http://job.dev.lbonline.cn](http://job.dev.lbonline.cn) \(帮助文档：[http://www.xuxueli.com/xxl-job/\#/](http://www.xuxueli.com/xxl-job/#/)\)
+
