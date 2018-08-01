@@ -1,6 +1,6 @@
 如需要登录密码，请联系运维－夏康
 
-maven私服：[http://http://nexus.dev.lbonline.cn//repository/maven-public](http://http://nexus.dev.lbonline.cn//repository/maven-public)
+maven私服：[http://nexus.dev.lbonline.cn//repository/maven-public](http://http://nexus.dev.lbonline.cn//repository/maven-public)
 
 微云：[https://share.weiyun.com/5COUl4f](https://share.weiyun.com/5COUl4f)
 
