@@ -10,5 +10,6 @@ GitHub: [https://code.aliyun.com](https://code.aliyun.com)
 
 Jenkins: [http://jenkins.dev.lbonline.cn](http://jenkins.dev.lbonline.cn)
 
-xxl-job: [http://job.dev.lbonline.cn](http://job.dev.lbonline.cn) \(帮助文档：[http://www.xuxueli.com/xxl-job/\#/](http://www.xuxueli.com/xxl-job/#/)\)
+xxl-job: [http://job.dev.lbonline.cn](http://job.dev.lbonline.cn) \(帮助文档：[http://www.xuxueli.com/xxl-job/\#/](http://www.xuxueli.com/xxl-job/#/)\)  
+disconf: [http://disconf.dev.lbonline.cn](http://disconf.dev.lbonline.cn) \(帮助文档：[http://disconf.readthedocs.io/zh\_CN/latest/](http://disconf.readthedocs.io/zh_CN/latest/)\)
 
