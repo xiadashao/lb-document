@@ -85,27 +85,27 @@ data:{
 ```
 {
     code :”00000000”,
-    
+
     message:”操作成功”,
-    
+
     data:{
-    
+
         totalCount: 2, 
-    
+
         pageNo: 1, 
-    
+
         pageSize: 10, 
-    
+
         list: [ 
-    
+
             { id: 1, name: "test", age: 22 },
-    
+
             { id: 2, name: "test2", code: 22 } 
-    
+
         ], 
-    
+
         totalPage: 1
-    
+
     }
 }
 ```
@@ -123,9 +123,9 @@ totalPage: 总页数
 ```
 {
     code :”01020300”,
-    
+
     message:”未找到数据。”,
-    
+
     data:{}
 }
 ```
@@ -134,17 +134,15 @@ totalPage: 总页数
 
 1. 下拉框，单选，多选
 
-   ```
-    获取数据由后台提供默认选中标识
-   ```
+        获取数据由后台提供默认选中标识
 
-   1. 日期
+   2. 日期
 
-      JSON数据传输中一律使用字符串，具体日期格式因业务而定
+        JSON数据传输中一律使用字符串，具体日期格式因业务而定
 
-   2. Boolean类型
+   3. Boolean类型
 
-      JSON数据传输中一律使用1/0来标示，1为是/True，0为否/False
+        JSON数据传输中一律使用1/0来标示，1为是/True，0为否/False
 
 ### 码表
 
