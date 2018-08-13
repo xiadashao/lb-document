@@ -30,83 +30,85 @@ data 业务数据
 
 {
 
-	code :”00000000”,
+```
+code :”00000000”,
 
-	message:”操作成功”,
+message:”操作成功”,
 
-	data:{
+data:{
 
-		id:1,
+    id:1,
 
-		name:test,
+    name:test,
 
-		age:22
+    age:22
 
-	}
+}
+```
 
 }
 
 成功响应-多条数据
 
+```
 {
+    code :”00000000”,
 
-	code :”00000000”,
+    message:”操作成功”,
 
-	message:”操作成功”,
+    data:[
 
-	data:\[
+        {
 
-		{
+            id:1,
 
-			id:1,
+            name:test,
 
-			name:test,
+            age:22
 
-			age:22
+        },{
 
-		},{
+            id:2,
 
-			id:2,
+            name:test2,
 
-			name:test2,
+            age:22
 
-			age:22
+        }
 
-		}
-
-	\]
-
+    ]
 }
+```
 
 成功响应-分页数据
 
+```
 {
-
-	code :”00000000”,
-
-	message:”操作成功”,
-
-	data:{
-
-		totalCount: 2, 
-
-		pageNo: 1, 
-
-		pageSize: 10, 
-
-		list: \[ 
-
-			{ id: 1, name: "test", age: 22 },
-
-			{ id: 2, name: "test2", code: 22 } 
-
-		\], 
-
-		totalPage: 1
-
-	}
-
+    code :”00000000”,
+    
+    message:”操作成功”,
+    
+    data:{
+    
+        totalCount: 2, 
+    
+        pageNo: 1, 
+    
+        pageSize: 10, 
+    
+        list: [ 
+    
+            { id: 1, name: "test", age: 22 },
+    
+            { id: 2, name: "test2", code: 22 } 
+    
+        ], 
+    
+        totalPage: 1
+    
+    }
 }
+```
 
 totalCount: 总记录数
 
@@ -118,29 +120,31 @@ totalPage: 总页数
 
 失败响应：
 
+```
 {
-
-	code :”01020300”,
-
-	message:”未找到数据。”,
-
-	data:{}
-
+    code :”01020300”,
+    
+    message:”未找到数据。”,
+    
+    data:{}
 }
+```
 
 ##### 3.特殊数据（暂时这些，开发中遇到进行补充）
 
 1. 下拉框，单选，多选
 
-        获取数据由后台提供默认选中标识
+   ```
+    获取数据由后台提供默认选中标识
+   ```
 
-   2. 日期
+   1. 日期
 
-        JSON数据传输中一律使用字符串，具体日期格式因业务而定
+      JSON数据传输中一律使用字符串，具体日期格式因业务而定
 
-   3. Boolean类型
+   2. Boolean类型
 
-        JSON数据传输中一律使用1/0来标示，1为是/True，0为否/False
+      JSON数据传输中一律使用1/0来标示，1为是/True，0为否/False
 
 ### 码表
 
