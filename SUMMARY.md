@@ -14,4 +14,6 @@
   * [阿里云MQ使用规范](erp20hou-duan/a-li-yun-mq-shi-yong-gui-fan.md)
 * [接口规范](qian-hou-duan-jie-kou-gui-fan.md)
   * [接口规范文档](qian-hou-duan-jie-kou-gui-fan/jie-kou-gui-fan-wen-dang.md)
+* [ERP2.0权限文档](erp20quan-xian-wen-dang.md)
+  * [权限](erp20quan-xian-wen-dang/quan-xian.md)
 
