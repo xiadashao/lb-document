@@ -18,5 +18,6 @@
 * [ERP2.0权限文档](erp20quan-xian-wen-dang.md)
   * [权限](erp20quan-xian-wen-dang/quan-xian.md)
 * [大数据](da-shu-ju.md)
-  * 大数据架构图
+  * [大数据架构图](da-shu-ju/da-shu-ju-jia-gou-tu.md)
+  * [dataworks操作指南](da-shu-ju/dataworkscao-zuo-zhi-nan.md)
 
