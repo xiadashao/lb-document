@@ -17,5 +17,6 @@
   * [接口规范文档](qian-hou-duan-jie-kou-gui-fan/jie-kou-gui-fan-wen-dang.md)
 * [ERP2.0权限文档](erp20quan-xian-wen-dang.md)
   * [权限](erp20quan-xian-wen-dang/quan-xian.md)
-* 大数据
+* [大数据](da-shu-ju.md)
+  * 大数据架构图
 
