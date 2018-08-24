@@ -12,4 +12,5 @@
   * [工程介绍](erp20qian-duan-foreveryoung/gong-cheng-jie-shao.md)
 * [ERP2.0后端](erp20hou-duan.md)
   * [阿里云MQ使用规范](erp20hou-duan/a-li-yun-mq-shi-yong-gui-fan.md)
+  * [短信通知使用规范](erp20hou-duan/duan-xin-tong-zhi-shi-yong-gui-fan.md)
 
