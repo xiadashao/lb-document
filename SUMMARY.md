@@ -13,7 +13,7 @@
 * [ERP2.0后端](erp20hou-duan.md)
   * [阿里云MQ使用规范](erp20hou-duan/a-li-yun-mq-shi-yong-gui-fan.md)
   * [短信通知使用规范](erp20hou-duan/duan-xin-tong-zhi-shi-yong-gui-fan.md)
-  * 用户权限管理
+  * [用户权限管理](erp20hou-duan/yong-hu-quan-xian-guan-li.md)
 * [接口规范](qian-hou-duan-jie-kou-gui-fan.md)
   * [接口规范文档](qian-hou-duan-jie-kou-gui-fan/jie-kou-gui-fan-wen-dang.md)
 * [ERP2.0权限文档](erp20quan-xian-wen-dang.md)
