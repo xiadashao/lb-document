@@ -22,4 +22,6 @@
 * [大数据](da-shu-ju.md)
   * [大数据架构图](da-shu-ju/da-shu-ju-jia-gou-tu.md)
   * [dataworks操作指南](da-shu-ju/dataworkscao-zuo-zhi-nan.md)
+* [ERP2.0测试](erp20ce-shi.md)
+  * [订单流程图](erp20ce-shi/ding-dan-liu-cheng-tu.md)
 
