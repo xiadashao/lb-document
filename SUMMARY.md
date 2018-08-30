@@ -26,4 +26,7 @@
   * [订单中心数仓](da-shu-ju/ding-dan-zhong-xin-shu-cang.md)
 * [ERP2.0测试](erp20ce-shi.md)
   * [订单流程图](erp20ce-shi/ding-dan-liu-cheng-tu.md)
+* TMS2.0业务逻辑
+  * [代理商小程序约课逻辑](dai-li-shang-xiao-cheng-xu-yue-ke-luo-ji.md)
+  * [后台排课逻辑](hou-tai-pai-ke-luo-ji.md)
 
