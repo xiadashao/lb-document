@@ -2,8 +2,6 @@
 
 ##### 1.套餐模块表的关系
 
-
-
 ![](/assets/combo_db.png)
 
 ##### 2.微信小程序针对代理商套餐列表
@@ -23,21 +21,27 @@
         List<SellAreaModel> sellAreaModelList = comboModel.getSellAreaModelList();
         //2.获取销售区域的省，下面没有市，没区
         List<String> provinceIds = sellAreaModelList.stream().filter( sellAreaModel -> {
-            if(!StringUtils.isEmpty(sellAreaModel.getProvinceId()) && StringUtils.isEmpty(sellAreaModel.getCityId()) && StringUtils.isEmpty(sellAreaModel.getAreaId())){
+            if(!StringUtils.isEmpty(sellAreaModel.getProvinceId()) 
+            && StringUtils.isEmpty(sellAreaModel.getCityId()) 
+            && StringUtils.isEmpty(sellAreaModel.getAreaId())){
                 return true;
             }
             return false;
         }).map(SellAreaModel::getProvinceId).collect(Collectors.toList());
         //3.获取销售区域的市,下面没有区
         List<String> cityIds = sellAreaModelList.stream().filter( sellAreaModel -> {
-            if(!StringUtils.isEmpty(sellAreaModel.getProvinceId()) && !StringUtils.isEmpty(sellAreaModel.getCityId()) && StringUtils.isEmpty(sellAreaModel.getAreaId())){
+            if(!StringUtils.isEmpty(sellAreaModel.getProvinceId()) 
+            && !StringUtils.isEmpty(sellAreaModel.getCityId()) 
+            && StringUtils.isEmpty(sellAreaModel.getAreaId())){
                 return true;
             }
             return false;
         }).map(SellAreaModel::getCityId).collect(Collectors.toList());
         //4.获取销售的区
         List<String> areaIds = sellAreaModelList.stream().filter( sellAreaModel -> {
-            if(!StringUtils.isEmpty(sellAreaModel.getProvinceId()) && !StringUtils.isEmpty(sellAreaModel.getCityId()) && !StringUtils.isEmpty(sellAreaModel.getAreaId())){
+            if(!StringUtils.isEmpty(sellAreaModel.getProvinceId()) 
+            && !StringUtils.isEmpty(sellAreaModel.getCityId()) 
+            && !StringUtils.isEmpty(sellAreaModel.getAreaId())){
                 return true;
             }
             return false;
@@ -66,11 +70,51 @@
     }
 ```
 
+##### 
 
+##### 
 
-
+##### 
 
 ##### 3.微信小程序针对销售员套餐列表
+
+源码
+
+```
+public  Map<String, List<ComboVo>> salesmanFilterCondition(Integer salesmanId) {
+        List<ComboModel> comboModelList = comboMapper.querySalesmanFilterCondition();
+        List<ComboModel> comboModelListFilter = comboModelList.stream().filter(comboModel -> {
+            //限定代理商代理过的套餐
+            if(ObjectUtils.isEmpty(comboModel.getSaleRuleModel())){
+                return false;
+            }
+            List<Integer> saleManIds = comboModel.getSaleRuleModel()
+            .getSaleTagModelList().stream().filter(saleTagModel -> {
+                return saleTagModel.getTagType().equals(SalesRuleStatusEnum.SALE_MAN_TAG.getCode());
+            }).map(SaleTagModel::getTagId).collect(Collectors.toList());
+            if(CollectionUtils.isEmpty(saleManIds)){
+                return true;
+            }
+            return saleManIds.contains(salesmanId);
+        }).collect(Collectors.toList());
+        Map<String, List<ComboVo>> subjectGroup = comboModelListFilter.stream().map(comboModel -> {
+            return convertComboVo(comboModel);
+        }).collect(Collectors.groupingBy(comboVo ->{
+            return comboVo.getSubjectionProjectName().trim();
+        }));
+        return subjectGroup;
+    }
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
