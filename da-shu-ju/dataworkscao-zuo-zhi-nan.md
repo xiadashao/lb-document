@@ -1,6 +1,6 @@
 ## **dataworks使用指南**
 
-1.创建项目![](/assets/data2.png)![](/assets/data3.png)2.新增数据源![](/assets/data4.png)填写数据源信息
+1.创建项目 ![](/assets/data2.png)![](/assets/data3.png)2.新增数据源![](/assets/data4.png)填写数据源信息
 
 ![](/assets/data5.png)
 
