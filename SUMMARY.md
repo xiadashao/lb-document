@@ -14,6 +14,7 @@
 * [ERP2.0后端](erp20hou-duan.md)
   * [阿里云MQ使用规范](erp20hou-duan/a-li-yun-mq-shi-yong-gui-fan.md)
   * [短信通知使用规范](erp20hou-duan/duan-xin-tong-zhi-shi-yong-gui-fan.md)
+  * [套餐模块核心逻辑](erp20hou-duan/tao-can-mo-kuai-he-xin-luo-ji.md)
   * [用户权限管理](erp20hou-duan/yong-hu-quan-xian-guan-li.md)
 * [ERP2.0权限文档](erp20quan-xian-wen-dang.md)
   * [权限](erp20quan-xian-wen-dang/quan-xian.md)
@@ -25,7 +26,4 @@
   * [订单中心数仓](da-shu-ju/ding-dan-zhong-xin-shu-cang.md)
 * [ERP2.0测试](erp20ce-shi.md)
   * [订单流程图](erp20ce-shi/ding-dan-liu-cheng-tu.md)
-* [TMS2.0后端业务](tms20hou-duan-ye-wu.md)
-  * [代理商小程序约课逻辑](tms20hou-duan-ye-wu/dai-li-shang-xiao-cheng-xu-yue-ke-luo-ji.md)
-  * [后台排课逻辑](tms20hou-duan-ye-wu/hou-tai-pai-ke-luo-ji.md)
 
