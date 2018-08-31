@@ -12,15 +12,17 @@
 
 * `post`新增、更新          参数传递放在body
 
-* `delete`删除资源          参数传递同get 
+* `delete`删除资源          参数传递同get
 
 ### 响应结果
 
 ##### 1. 组成
 
-code 响应码    自定义码表
+status 响应状态
 
-message 响应信息    自定义码表
+code 响应码    
+
+message 响应信息   
 
 data 业务数据
 
@@ -30,17 +32,19 @@ data 业务数据
 
 ```
 {
-    code :”00000000”,
+    "status":1
+    
+    "code" :0,
 
-    message:”操作成功”,
+    "message":"",
 
-    data:{
+    "data":{
 
-        id:1,
+        "id":1,
 
-        name:test,
+        "name":"test",
 
-        age:22
+        "age":22
 
     }
 }
@@ -50,27 +54,29 @@ data 业务数据
 
 ```
 {
-    code :”00000000”,
+    "status":1
+    
+    "code" :0,
 
-    message:”操作成功”,
+    "message":"",
 
     data:[
 
         {
 
-            id:1,
+            "id":1,
 
-            name:test,
+            "name":"test",
 
-            age:22
+            "age":22
 
         },{
 
-            id:2,
+            "id":2,
 
-            name:test2,
+            "name":"test2",
 
-            age:22
+            "age":22
 
         }
 
@@ -82,35 +88,37 @@ data 业务数据
 
 ```
 {
-    code :”00000000”,
+    "status":1
 
-    message:”操作成功”,
+    "code" :0,
 
-    data:{
+    "message":"",
 
-        totalCount: 2, 
+    "data":{
 
-        pageNo: 1, 
+        "total": 2, 
 
-        pageSize: 10, 
+        "pageNum": 1, 
 
-        list: [ 
+        "pageSize": 10, 
 
-            { id: 1, name: "test", age: 22 },
+        "list": [ 
 
-            { id: 2, name: "test2", code: 22 } 
+            { "id": 1, "name": "test", "age": 22 },
+
+            { "id": 2, "name": "test2", "code": 22 } 
 
         ], 
 
-        totalPage: 1
+        "totalPage": 1
 
     }
 }
 ```
 
-totalCount: 总记录数
+total: 总记录数
 
-pageNo: 当前页码
+pageNum: 当前页码
 
 pageSize: 每页大小
 
@@ -120,11 +128,11 @@ totalPage: 总页数
 
 ```
 {
-    code :”01020300”,
+    "code" :-1000,
 
-    message:”未找到数据。”,
+    "message":"未找到数据",
 
-    data:{}
+    "data":{}
 }
 ```
 
@@ -136,13 +144,7 @@ totalPage: 总页数
 
 Boolean类型     JSON数据传输中一律使用1/0来标示，1为是/True，0为否/False
 
-### 码表
 
-暂定8位字符，“00000000”标识成功，其余根据各业务进行自定义
 
-00  00   0000，响应码可以按照223的标准（初步），进行分配、定义
 
-例如：订单服务 01，下单模块02，参数异常0003；组合起来返回错误码是01020003
-
-各个服务可以根据自己的需求进行自定义状态码，最后汇总成对外提供的码表。
 
