@@ -33,4 +33,7 @@
   * [财务事故报告](cai-wu-shi-gu-bao-gao.md)
 * 会议纪要
   * [20180831产品例会](20180831chan-pin-li-hui.md)
+* [财务](cai-wu.md)
+  * [财务应用场景](cai-wu/cai-wu-ying-yong-chang-jing.md)
+  * [财务与订单交互](cai-wu/cai-wu-yu-ding-dan-jiao-hu.md)
 
