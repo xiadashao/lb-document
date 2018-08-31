@@ -20,9 +20,9 @@
 
 status 响应状态
 
-code 响应码    
+code 响应码
 
-message 响应信息   
+message 响应信息
 
 data 业务数据
 
@@ -33,7 +33,7 @@ data 业务数据
 ```
 {
     "status":1
-    
+
     "code" :0,
 
     "message":"",
@@ -55,7 +55,7 @@ data 业务数据
 ```
 {
     "status":1
-    
+
     "code" :0,
 
     "message":"",
@@ -136,6 +136,14 @@ totalPage: 总页数
 }
 ```
 
+
+
+返回状态status===1表请求成功，code返回0，message返回"";
+
+返回状态status===0表请求失败，code返回错误码，message返回详细的错误信息；
+
+
+
 ##### 3.特殊数据（暂时这些，开发中遇到进行补充）
 
 下拉框，单选，多选         获取数据由后台提供默认选中标识
@@ -143,8 +151,4 @@ totalPage: 总页数
 日期        JSON数据传输中一律使用字符串，具体日期格式因业务而定
 
 Boolean类型     JSON数据传输中一律使用1/0来标示，1为是/True，0为否/False
-
-
-
-
 
