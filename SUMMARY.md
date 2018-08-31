@@ -31,4 +31,6 @@
   * [后台排课逻辑](hou-tai-pai-ke-luo-ji.md)
 * 系统事故报告
   * [财务事故报告](cai-wu-shi-gu-bao-gao.md)
+* 会议纪要
+  * [20180831产品例会](20180831chan-pin-li-hui.md)
 
