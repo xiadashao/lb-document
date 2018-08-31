@@ -29,4 +29,6 @@
 * TMS2.0业务逻辑
   * [代理商小程序约课逻辑](dai-li-shang-xiao-cheng-xu-yue-ke-luo-ji.md)
   * [后台排课逻辑](hou-tai-pai-ke-luo-ji.md)
+* [CRM新人入职介绍](crmxin-ren-ru-zhi-jie-shao.md)
+  * [测试](crmxin-ren-ru-zhi-jie-shao/ce-shi.md)
 
