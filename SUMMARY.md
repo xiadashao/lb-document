@@ -38,4 +38,8 @@
 * [财务](cai-wu.md)
   * [财务应用场景](cai-wu/cai-wu-ying-yong-chang-jing.md)
   * [财务与订单交互](cai-wu/cai-wu-yu-ding-dan-jiao-hu.md)
+  * [财务对外提供接口1.0](cai-wu/cai-wu-dui-wai-ti-gong-jie-kou-1-0.md)
+    * [充值业务\(微信充值\)/退款业务\(微信支付\)](cai-wu/cai-wu-dui-wai-ti-gong-jie-kou-1-0/chong-zhi-ye-52a128-wei-xin-chong-503c29.md)
+    * [ERP/小程序下单生成流水](cai-wu/cai-wu-dui-wai-ti-gong-jie-kou-1-0/xia-dan-sheng-cheng-liu-shui.md)
+    * [分期支付生成欠款](cai-wu/cai-wu-dui-wai-ti-gong-jie-kou-1-0/fen-qi-zhi-fu-sheng-cheng-qian-kuan.md)
 
