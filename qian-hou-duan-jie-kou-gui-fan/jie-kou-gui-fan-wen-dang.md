@@ -138,9 +138,9 @@ totalPage: 总页数
 }
 ```
 
-返回状态status===1表请求成功，code返回0，message返回"";
+返回状态status===1表响应成功，code返回0，message返回"";
 
-返回状态status===0表请求失败，code返回错误码，message返回详细的错误信息；
+返回状态status===0表响应失败，code返回错误码，message返回详细的错误信息；
 
 多条数据和分页数据返回数据条数为0时，返回\[\]；
 
