@@ -44,4 +44,5 @@
     * [20180831事故](cai-wu-shi-gu-bao-gao/20180831shi-gu.md)
 * [设计](she-ji.md)
   * [后台设计规范](she-ji/hou-tai-she-ji-gui-fan.md)
+* [测试自动发布](ce-shi-zi-dong-fa-bu.md)
 
