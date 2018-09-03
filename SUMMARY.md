@@ -29,8 +29,8 @@
 * TMS2.0业务逻辑
   * [代理商小程序约课逻辑](dai-li-shang-xiao-cheng-xu-yue-ke-luo-ji.md)
   * [后台排课逻辑](hou-tai-pai-ke-luo-ji.md)
-* [CRM新人入职介绍](crmxin-ren-ru-zhi-jie-shao.md)
-  * [测试](crmxin-ren-ru-zhi-jie-shao/ce-shi.md)
+* [CRM](crmxin-ren-ru-zhi-jie-shao.md)
+  * [新人工作任务](crmxin-ren-ru-zhi-jie-shao/ce-shi.md)
 * [系统事故报告](xi-tong-shi-gu-bao-gao.md)
   * [财务事故报告](cai-wu-shi-gu-bao-gao.md)
 * [会议纪要](hui-yi-ji-yao.md)
