@@ -45,4 +45,6 @@
 * [设计](she-ji.md)
   * [后台设计规范](she-ji/hou-tai-she-ji-gui-fan.md)
 * [测试自动发布](ce-shi-zi-dong-fa-bu.md)
+* [Java后端技术](javahou-duan-ji-zhu.md)
+  * [Cat监控对接](javahou-duan-ji-zhu/catjian-kong-dui-jie.md)
 
