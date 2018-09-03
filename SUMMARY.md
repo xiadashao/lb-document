@@ -39,4 +39,5 @@
 * [系统事故报告](xi-tong-shi-gu-bao-gao.md)
   * [财务事故报告](cai-wu-shi-gu-bao-gao.md)
     * [20180824事故](cai-wu-shi-gu-bao-gao/20180824shi-gu.md)
+    * [20180828事故](cai-wu-shi-gu-bao-gao/20180828shi-gu.md)
 
