@@ -36,6 +36,7 @@
 * [财务](cai-wu.md)
   * [财务应用场景](cai-wu/cai-wu-ying-yong-chang-jing.md)
   * [财务与订单交互](cai-wu/cai-wu-yu-ding-dan-jiao-hu.md)
+  * [财务对外接口1.0](cai-wu/cai-wu-dui-wai-jie-kou-1-0.md)
 * [系统事故报告](xi-tong-shi-gu-bao-gao.md)
   * [财务事故报告](cai-wu-shi-gu-bao-gao.md)
     * [20180824事故](cai-wu-shi-gu-bao-gao/20180824shi-gu.md)
