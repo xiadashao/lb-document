@@ -1,6 +1,6 @@
 ## **dataworks使用指南**
 
-1.创建项目![](/assets/data2.png)![](/assets/data3.png)2.新增数据源![](/assets/data4.png)填写数据源信息
+1.创建项目 ![](/assets/data2.png)![](/assets/data3.png)2.新增数据源![](/assets/data4.png)填写数据源信息
 
 ![](/assets/data5.png)
 
@@ -20,9 +20,7 @@ maxcompute 其它资料详细请参考
 
 [https://help.aliyun.com/product/27797.html?spm=a2c4g.11186623.3.1.2d045c23m9C7p0](https://help.aliyun.com/product/27797.html?spm=a2c4g.11186623.3.1.2d045c23m9C7p0)
 
-Quick BI 资料详细请参
+Quick BI 资料详细请参考
 
-https://help.aliyun.com/product/30343.html?spm=a2c4g.11186623.3.1.26e017b1UMjFSz
-
-
+[https://help.aliyun.com/product/30343.html?spm=a2c4g.11186623.3.1.26e017b1UMjFSz](https://help.aliyun.com/product/30343.html?spm=a2c4g.11186623.3.1.26e017b1UMjFSz)
 
