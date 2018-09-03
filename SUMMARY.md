@@ -29,4 +29,6 @@
 * TMS2.0业务逻辑
   * [代理商小程序约课逻辑](dai-li-shang-xiao-cheng-xu-yue-ke-luo-ji.md)
   * [后台排课逻辑](hou-tai-pai-ke-luo-ji.md)
+* [Java后端技术](javahou-duan-ji-zhu.md)
+  * [Cat监控对接](javahou-duan-ji-zhu/catjian-kong-dui-jie.md)
 
