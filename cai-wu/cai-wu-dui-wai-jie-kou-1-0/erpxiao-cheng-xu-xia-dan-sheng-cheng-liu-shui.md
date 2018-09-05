@@ -20,6 +20,13 @@ FinanceAccountService.handleOrder(OrderFinanceForm orderFinanceForm);
      */
     @ApiModelProperty("财务账户ID") //必填
     private Long accountId;
+    
+    
+    /**
+     * 账号类型
+     */
+    @ApiModelProperty("账号类型: 1 代理商  2 园所   3 家庭端")
+    private Integer accountType;
 
     /**
      * 订单号

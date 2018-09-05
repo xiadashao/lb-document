@@ -17,6 +17,13 @@ FinanceAccountService.recharge(RechargeForm rechargeForm);
 ```
     @ApiModelProperty("账号ID")//必传
     private Long accountId;
+    
+    /**
+     * 账号类型
+     */
+    @ApiModelProperty("账号类型: 1 代理商  2 园所   3 家庭端")
+    private Integer accountType;
+    
 
     @ApiModelProperty("变更金额")//必传
     private Double changeAmount;
