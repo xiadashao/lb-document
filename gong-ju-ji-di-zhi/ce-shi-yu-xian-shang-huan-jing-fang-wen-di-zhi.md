@@ -9,7 +9,7 @@ https://adam.lbonline.cn/swagger-ui.html
 ＊ xxl-job地址
 
 ```
-http://47.94.197.198:9982/xxl-job-admin-1.9.2-SNAPSHOT
+http://47.94.197.198:9881/xxl-job-admin-1.9.2-SNAPSHOT
 ```
 
 ＊ TMS地址
@@ -22,8 +22,8 @@ swagger接口地址：http://47.94.197.198:8088/swagger-ui.html
 ＊ ERP地址
 
 ```
-前端地址：http://47.94.197.198:8080/
-swagger接口地址：http://47.94.197.198:8081/swagger-ui.html
+前端地址：http://test.lb.lbonline.cn
+swagger接口地址：http://test.lb.lbonline.cn:8081/swagger-ui.html
 ```
 
 ＊ workflow地址：
