@@ -1,13 +1,13 @@
 # Summary
 
-* [联帮在线](README.md)
-  * [GitBook-Editor介绍](gitbook-editor.md)
-  * [GitBook使用](gitbookshi-yong.md)
-* [技术新人入职的标准流程](chapter1.md)
-  * [源码获取方式](chapter1/qian-duan-ji-zhu-ren-yuan.md)
+* [联帮在线技术部](README.md)
+  * [联帮在线技术产品部门规章制度1.0](lian-bang-zai-xian-ji-zhu-chan-pin-bu-men-gui-zhang-zhi-du-1-0.md)
 * [工具集](gong-ju-ji-di-zhi.md)
   * [工具访问地址](gong-ju-ji-di-zhi/gong-ju-url.md)
   * [测试与线上环境访问地址](gong-ju-ji-di-zhi/ce-shi-yu-xian-shang-huan-jing-fang-wen-di-zhi.md)
+  * [源码获取方式](gong-ju-ji-di-zhi/yuan-ma-huo-qu-fang-shi.md)
+  * [GitBook-Editor介绍](gong-ju-ji-di-zhi/gitbook-editorjie-shao.md)
+  * [GitBook使用](gong-ju-ji-di-zhi/gitbookshi-yong.md)
 * [ERP2.0-前端foreverYoung](erp20qian-duan-foreveryoung.md)
   * [前端规范](erp20qian-duan-foreveryoung/qian-duan-gui-fan.md)
   * [工程介绍](erp20qian-duan-foreveryoung/gong-cheng-jie-shao.md)
