@@ -36,6 +36,7 @@
   * [20180831产品例会](20180831chan-pin-li-hui.md)
   * [20180830技术例会](20180830hui-yi-ji-yao.md)
   * [20180906财务会议纪要](20180906cai-wu-hui-yi-ji-yao.md)
+  * [20180908财务数据迁移会议](20180908cai-wu-shu-ju-qian-yi-hui-yi.md)
 * [财务](cai-wu.md)
   * [财务应用场景](cai-wu/cai-wu-ying-yong-chang-jing.md)
   * [财务与订单交互](cai-wu/cai-wu-yu-ding-dan-jiao-hu.md)
