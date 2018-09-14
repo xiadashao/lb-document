@@ -44,6 +44,7 @@
     * [财务账号充值/退款并生成流水](cai-wu/cai-wu-dui-wai-jie-kou-1-0/cai-wu-zhang-hao-chong-503c-tui-kuan-bing-sheng-cheng-liu-shui.md)
     * [ERP/小程序下单生成流水](cai-wu/cai-wu-dui-wai-jie-kou-1-0/erpxiao-cheng-xu-xia-dan-sheng-cheng-liu-shui.md)
     * [分期支付生成欠款](cai-wu/cai-wu-dui-wai-jie-kou-1-0/fen-qi-zhi-fu-sheng-cheng-qian-kuan.md)
+  * [财务2.0产品说明](cai-wu/cai-wu-2-0-chan-pin-shuo-ming.md)
 * [系统事故报告](xi-tong-shi-gu-bao-gao.md)
   * [财务事故报告](cai-wu-shi-gu-bao-gao.md)
     * [20180824事故](cai-wu-shi-gu-bao-gao/20180824shi-gu.md)
