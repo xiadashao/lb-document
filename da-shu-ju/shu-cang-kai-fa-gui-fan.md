@@ -15,13 +15,13 @@
 表名规范：
 
 ```
-数据源层： 根据业务部门不同，开头也有不同如：lb\_erp\_表名、lb\_crm\_表名、lb\_tms\_表名
+数据源层： 根据业务部门不同，开头也有不同如：lb_erp_表名、lb_crm_表名、lb_tms_表名
 
-主题层：主题层表统一前缀：lb\_dw\_   如销售相关：lb\_dw\_sell\_order、lb\_dw\_sell\_combo
+主题层：主题层表统一前缀：lb_dw_   如销售相关：lb_dw_sell_order、lb_dw_sell_combo
 
-               对于公共数据，统一前缀：lb\_dw\_common\_表名；临时使用的erp1.0中的数据 统一使用：lb\_dw\_erp1\_表名
+               对于公共数据，统一前缀：lb_dw_common_表名；临时使用的erp1.0中的数据 统一使用：lb_dw_erp1_表名
 
-报表层：报表层表同意前缀：lb\_bi\_    如销售相关：lb\_bi\_sell\_combo\_count
+报表层：报表层表同意前缀：lb_bi_    如销售相关：lb_bi_sell_combo_count
 ```
 
 DataWorks 目录规范：
@@ -29,15 +29,15 @@ DataWorks 目录规范：
 ```
 任务开发：
 
-clone\_database : 数据同步整库迁移的任务，每天的定时同步任务，现在是每天全量，同步到新分区中（分区字段：pt）
+clone_database : 数据同步整库迁移的任务，每天的定时同步任务，现在是每天全量，同步到新分区中（分区字段：pt）
 
-lb\_data\_job：任务开发的重点区域
+lb_data_job：任务开发的重点区域
 
-         dw\_subj\_data\_convert：数据模型生成
+         dw_subj_data_convert：数据模型生成
 
-          bi\_data\_compute：任务开发，结果转储mysql
+          bi_data_compute：任务开发，结果转储mysql
 
-z\_short\_time\_task：临时任务开发目录，针对短期任务包括不限于数据同步、数据分析等
+z_short_time_task：临时任务开发目录，针对短期任务包括不限于数据同步、数据分析等
 ```
 
 
