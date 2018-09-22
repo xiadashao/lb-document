@@ -61,4 +61,6 @@
   * [git分支与yam配置文件规范](yun-wei-xu-qiu-gui-fan/gitfen-zhi-yu-yam-pei-zhi-wen-jian-gui-fan.md)
 * [代码书写规范](dai-ma-shu-xie-gui-fan.md)
   * [注释和日志](dai-ma-shu-xie-gui-fan/zhu-shi-he-ri-zhi.md)
+* [系统流程架构](xi-tong-liu-cheng-jia-gou.md)
+  * [用户-权限、状态](xi-tong-liu-cheng-jia-gou/yong-6237-quan-xian-3001-zhuang-tai.md)
 
