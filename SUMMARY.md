@@ -57,4 +57,8 @@
   * [Cat监控对接](javahou-duan-ji-zhu/catjian-kong-dui-jie.md)
 * [数据库使用规范](shu-ju-ku-shi-yong-gui-fan.md)
   * [Mysql使用规范](shu-ju-ku-shi-yong-gui-fan/mysqlshi-yong-gui-fan.md)
+* [运维需求规范](yun-wei-xu-qiu-gui-fan.md)
+  * [git分支与yam配置文件规范](yun-wei-xu-qiu-gui-fan/gitfen-zhi-yu-yam-pei-zhi-wen-jian-gui-fan.md)
+* [代码书写规范](dai-ma-shu-xie-gui-fan.md)
+  * [注释和日志](dai-ma-shu-xie-gui-fan/zhu-shi-he-ri-zhi.md)
 
