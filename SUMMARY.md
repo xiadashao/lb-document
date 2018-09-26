@@ -54,6 +54,7 @@
 * [测试自动发布](ce-shi-zi-dong-fa-bu.md)
 * [Java后端技术](javahou-duan-ji-zhu.md)
   * [Cat监控对接](javahou-duan-ji-zhu/catjian-kong-dui-jie.md)
+* [Shiro公共组件使用](shirogong-gong-zu-jian-shi-yong.md)
 * [数据库使用规范](shu-ju-ku-shi-yong-gui-fan.md)
   * [Mysql使用规范](shu-ju-ku-shi-yong-gui-fan/mysqlshi-yong-gui-fan.md)
 
