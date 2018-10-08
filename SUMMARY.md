@@ -32,6 +32,7 @@
   * [后台排课逻辑](hou-tai-pai-ke-luo-ji.md)
 * [CRM](crmxin-ren-ru-zhi-jie-shao.md)
   * [新人工作任务](crmxin-ren-ru-zhi-jie-shao/ce-shi.md)
+  * [数据表结构](crmxin-ren-ru-zhi-jie-shao/shu-ju-biao-jie-gou.md)
 * [会议纪要](hui-yi-ji-yao.md)
   * [20180831产品例会](20180831chan-pin-li-hui.md)
   * [20180830技术例会](20180830hui-yi-ji-yao.md)
