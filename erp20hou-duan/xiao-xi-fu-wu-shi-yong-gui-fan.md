@@ -25,6 +25,27 @@
 * @return
 */
 public ResultVo sendMessage(String params);
+
+/**
+ * 根据查询条件获取站内信信息
+ * @param letterDto 站内信查询条件
+ * @return
+ */
+public ResultVo findLetters(LetterDto letterDto);
+
+/**
+ * 根据条件更新站内信信息
+ * @param letterDto 站内信更新条件
+ * @return
+ */
+public ResultVo updateLetter(LetterDto letterDto);
+
+/**
+ * 创建微信用户表单
+ * @param openFormMappingDto 微信用户关系
+ * @return
+ */
+public ResultVo addOpenFormMapping(OpenFormMappingDto openFormMappingDto);
 ```
 
 ## 四.参数说明
@@ -85,6 +106,18 @@ public ResultVo sendMessage(String params);
 | :--- | :--- | :--- | :--- |
 | sendType | Byte | 否 | 发送类型:1实时2定时,默认实时 |
 | timeStamp | Long | 否 | 定时发送具体时间戳,默认0L |
+
+## 五.后期迭代
+
+1.确定发送端、接收端、业务类型的具体信息.
+
+2.短信邮件批量发送数限制,分批发送至mq.
+
+3.邮件丰富模板发送,附件发送.
+
+4.增加日志记录.
+
+
 
 
 
