@@ -16,6 +16,7 @@
   * [短信通知使用规范](erp20hou-duan/duan-xin-tong-zhi-shi-yong-gui-fan.md)
   * [套餐模块核心逻辑](erp20hou-duan/tao-can-mo-kuai-he-xin-luo-ji.md)
   * [用户权限管理](erp20hou-duan/yong-hu-quan-xian-guan-li.md)
+  * [消息服务使用规范](erp20hou-duan/xiao-xi-fu-wu-shi-yong-gui-fan.md)
 * [ERP2.0权限文档](erp20quan-xian-wen-dang.md)
   * [权限](erp20quan-xian-wen-dang/quan-xian.md)
 * [接口规范](qian-hou-duan-jie-kou-gui-fan.md)
