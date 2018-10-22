@@ -107,7 +107,38 @@ public ResultVo addOpenFormMapping(OpenFormMappingDto openFormMappingDto);
 | sendType | Byte | 否 | 发送类型:1实时2定时,默认实时 |
 | timeStamp | Long | 否 | 定时发送具体时间戳,默认0L |
 
-## 五.后期迭代
+## 五.调用示例
+
+```
+以发送短信为例:
+入参
+	params={
+		    "businessType": "家长端小程序",
+		    "content": {
+			"code": "381027"
+		    },
+		    "fromEnd": 1,
+		    "messageType": 1,
+		    "sendType": 1,
+		    "smsSign": "联帮在线",
+		    "templateId": "SMS_148590983",
+		    "timeStamp": 0,
+		    "to": "18511656411"
+		}
+结果
+	成功:{
+		"code": 0,
+		"msg": "成功",
+		"data": null
+	    }
+	失败:{
+		"code": -10,
+		"msg": "失败",
+		"data": 系统异常
+	    }
+```
+
+## 六.后期迭代
 
 1.确定发送端、接收端、业务类型的具体信息.
 
@@ -116,8 +147,4 @@ public ResultVo addOpenFormMapping(OpenFormMappingDto openFormMappingDto);
 3.邮件丰富模板发送,附件发送.
 
 4.增加日志记录.
-
-
-
-
 
